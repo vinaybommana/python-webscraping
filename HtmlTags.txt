@@ -1,0 +1,66 @@
+Basic Html Tags.
+
+<!DOCTYPE>  defines the document type..
+<html> 		defines a html document..
+<title>		defines a title for the document..
+<body>		defines the document's body
+<h1> to <h6>defines Html headings..
+<p> 		defines a paragraph..
+<br> 		defines a single line break
+<hr> 		defines a thematic change in the content.
+<!--...-->  defines a comment.
+
+Formatting:
+<b> 		defines a bold text
+<blockquote>defines a section that is quoted from another source..
+<center>	defines centred text
+
+Images:
+
+<img>		defines an image..
+<map>		defines a client side image map
+<picture>	defines a container for multiple image resources
+
+Links:
+<a>			defines a hyperlink
+<link>		defines a relationship between a document and an external resource (most used to link to style sheets)
+<nav>		defines navigation links
+
+Lists:
+
+<ul> 		defines an unordered list
+<ol>		defines an ordered list
+<li>		defines a list item
+
+
+Tables:
+
+<table>		defines a table
+<caption>	defines a table caption
+<th>		defines a header cell in a table
+<tr>		defines a row in a table
+<td>		defines a cell in a table
+<thead>		groups the header content in a table
+<tbody>		groups the body content in a table
+<tfoot>		groups the footer content in a table
+<col>		specifies column properties for each column within a <colgroup> element
+<colgroup>	specifies a group of one or more columns in a table for formatting
+
+
+Styles and semantics:
+
+<style> 	defines style information for a document
+<div>		defines a section in a document
+<span>		defines a section in a document
+
+Programming:
+
+<script>	defines a client-side script
+<embed>		defines a container for an external (non-Html) application
+<object>	defines an embedded object
+<param>		defines a parameter for an object.
+
+
+The <div> tag is a generic block-level element, so a rectangular object which can not be broken over several lines.
+
+The <div> element is currently the most common method for identifying the structural sections of a document and for laying out a web page using CSS.
