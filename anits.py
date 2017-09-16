@@ -6,7 +6,8 @@ from bs4 import BeautifulSoup
 #html = response.content
 #htmlfile = open("file2.html", "w+")
 #htmlfile.write(html)
-page1 = urllib.request.urlopen('file:///home/vinay/me/mycodes/python/webscraping/file' + '314126514001' + '.html')
+# you should put in the number you want
+page1 = urllib.request.urlopen('file:///home/vinay/1.html')
 soup = BeautifulSoup(page1, "lxml")
 tables = soup.findAll("table")
 print(tables)

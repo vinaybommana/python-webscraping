@@ -1,9 +1,7 @@
-##### python libraries
 import csv
-import requests
+# import requests
 import urllib.request
 from bs4 import BeautifulSoup
-#######################
 
 # csv is an acronym for comma seperated value
 csv_file = csv.writer(open("EEE.csv", "w"))
@@ -11,7 +9,8 @@ csv_file = csv.writer(open("EEE.csv", "w"))
 csv_file.writerow(["regd.no", "Name","Total Classes Conducted","Total Classes Attended","Attendance_Percentage"])
 
 # looping through the entire 65 members in the class
-for i in range(314126514001, 314126514066):
+# you should give your desired roll number.
+for i in range(1, 99):
     # opening the html files using urllib
     # python2 
     # urllib2.urlopen()
@@ -49,4 +48,3 @@ for i in range(314126514001, 314126514066):
         if row_data.index(i) == Total_classes_attended:
             student_total_classes_attended = i.get_text()
     csv_file.writerow([student_rollno, student_name,student_total_classes_conducted, student_total_classes_attended, student_attendance_percentage])
-
